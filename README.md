@@ -10,10 +10,10 @@ Implementación de una arquitectura para un clúster de procesamiento de datos d
 ## Usage
 1-Clone the repository.
 2-Execute the following commands to deploy the architecture:
- Terraform init: To start and download the required providers
- Terraform plan: To create the architecture installation plan.
- Terraform -auto-approve: To run the installation plan in the Aws cloud.
- Terraform destroy: When the environment is no longer required it will delete the created infrastructure.
+ * Terraform init: To start and download the required providers
+ * Terraform plan: To create the architecture installation plan.
+ * Terraform -auto-approve: To run the installation plan in the Aws cloud.
+ * Terraform destroy: When the environment is no longer required it will delete the created infrastructure.
 Please ensure you read documentation for [Terraform](https://terraform.io/docs/) and its well written [command-line interface (CLI)](https://terraform.io/docs/commands/index.html) documentation for usage.
 
 The [terraform.tfvars](https://www.terraform.io/intro/getting-started/variables.html) in the [examples](examples/terraform.tfvars) folder is used as a variable overlay and, as per the Terraform documentation, is processed last; meaning, it overrides all command line and environment variables.  
