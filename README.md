@@ -6,10 +6,22 @@ Implementación de una arquitectura para un clúster de procesamiento de datos d
 ## Student interaction with architecture
 ![image](https://user-images.githubusercontent.com/72947118/205776817-5e31ce91-b6cb-4e4d-8040-71222e79bae6.png)
 
+For each machine nodes, we create the following objects:
+
+* Virtual Private Cloud (VPC), 
+* network security groups, 
+* network subnets and routing tables, gateways etc.
+* machine instances corresponding to 3 nodes within the cluster. 
+* In the node master config GitHub Actions, SonarCloud,Jupyter Lab
+
+The VPC, network security groups, network subnets and routing tables ensure all cluster resources are isolated from other managed clusters.
 
 ## Usage
 1-Clone the repository.
-2-Execute the following commands to deploy the architecture:
+
+2-to use the environment modify the file download this project and modify the file [vars.tf](vars.tf), with the required Aws,git and sonarcloud variables.
+
+3-Execute the following commands to deploy the architecture:
  * Terraform init: To start and download the required providers
  * Terraform plan: To create the architecture installation plan.
  * Terraform -auto-approve: To run the installation plan in the Aws cloud.
@@ -21,16 +33,3 @@ The [terraform.tfvars](https://www.terraform.io/intro/getting-started/variables.
 Ensure you modify the URL on line 25 and 29 in [Installs_Cluster.tf](Installs_Cluster.tf) to reflect the correct address of your custom Spark y hadoop distribution.
 
 It's recommended TF_VAR environment and command line variables be used as per the Terraform [documentation](https://www.terraform.io/docs/configuration/variables.html).
-## Download
-to use the environment modify the file download this project and modify the file [vars.tf](vars.tf), with the required Aws,git and sonarcloud variables.
-
-For each machine cluster, we create the following objects:
-
-* Virtual Private Cloud (VPC), 
-* network security groups, 
-* network subnets and routing tables, gateways etc.
-* machine instances corresponding to 3 nodes within the cluster. 
-* In the node master config GitHub Actions, SonarCloud,Jupyter Lab
-
-The VPC, network security groups, network subnets and routing tables ensure all cluster resources are isolated from other managed clusters.
-
