@@ -1,10 +1,11 @@
 # Experimental environment of distributed data processing integrating devops, under a deployment of infrastructure as code in the cloud.
 Implementation of an architecture for a distributed data processing cluster, integrating Devops into a software delivery cycle; through an automated deployment of code-like infrastructure in the cloud.
 ## Archtecture
-![image](![Diagrama sin título-Page-4 drawio](https://user-images.githubusercontent.com/72947118/230426979-5f5fea64-2545-4cce-abcd-90cdd3ef5647.png)
+![Diagrama sin título-Page-4 drawio](https://user-images.githubusercontent.com/72947118/230426979-5f5fea64-2545-4cce-abcd-90cdd3ef5647.png)
 
 ## Student interaction with architecture
-![image](https://user-images.githubusercontent.com/72947118/205776817-5e31ce91-b6cb-4e4d-8040-71222e79bae6.png)
+
+![arquitectura big data-Page-4 drawio (1)-Página-9 drawio](https://user-images.githubusercontent.com/72947118/230428013-47c8532c-593c-4f86-ae6f-fdc0556a024d.png)
 
 For each machine nodes, we create the following objects:
 
