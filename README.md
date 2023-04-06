@@ -1,5 +1,5 @@
-# Entorno experimental de procesamiento distribuido de datos integrando devops, bajo un despliegue de infraestructura como código en la nube.
-Implementación de una arquitectura para un clúster de procesamiento de datos distribuido, integrando Devops en un ciclo de entrega  de software; mediante un despliegue automatizado de infraestructura de como código en la nube.
+# Experimental environment of distributed data processing integrating devops, under a deployment of infrastructure as code in the cloud.
+Implementation of an architecture for a distributed data processing cluster, integrating Devops into a software delivery cycle; through an automated deployment of code-like infrastructure in the cloud.
 ## Archtecture
 ![image](https://user-images.githubusercontent.com/72947118/205776726-6d9d96c9-5c04-44b1-8bf5-dfe605d8d477.png)
 
